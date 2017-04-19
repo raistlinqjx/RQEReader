@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D25DF91EA7459A00918899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25DF81EA7459A00918899 /* AppDelegate.swift */; };
+		18D25DFB1EA7459A00918899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25DFA1EA7459A00918899 /* ViewController.swift */; };
+		18D25DFE1EA7459A00918899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D25DFC1EA7459A00918899 /* Main.storyboard */; };
+		18D25E001EA7459A00918899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D25DFF1EA7459A00918899 /* Assets.xcassets */; };
+		18D25E031EA7459A00918899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D25E011EA7459A00918899 /* LaunchScreen.storyboard */; };
+		76DFE7DFC3EEDD9D5BE62F11 /* Pods_RQEReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8B4736D3A59910DCE8208D /* Pods_RQEReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A8B4736D3A59910DCE8208D /* Pods_RQEReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RQEReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B0CE2A9E9D4054825492DC /* Pods-RQEReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQEReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RQEReader/Pods-RQEReader.debug.xcconfig"; sourceTree = "<group>"; };
+		18D25DF51EA7459A00918899 /* RQEReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQEReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D25DF81EA7459A00918899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D25DFA1EA7459A00918899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D25DFD1EA7459A00918899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D25DFF1EA7459A00918899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D25E021EA7459A00918899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D25E041EA7459A00918899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3085697F4B234FD3353DFBFB /* Pods-RQEReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQEReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-RQEReader/Pods-RQEReader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D25DF21EA7459A00918899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DFE7DFC3EEDD9D5BE62F11 /* Pods_RQEReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D25DEC1EA7459A00918899 = {
+			isa = PBXGroup;
+			children = (
+				18D25DF71EA7459A00918899 /* RQEReader */,
+				18D25DF61EA7459A00918899 /* Products */,
+				E3D7D0C039AD3919E6F3BCED /* Pods */,
+				2B538560191FC06110536940 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D25DF61EA7459A00918899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D25DF51EA7459A00918899 /* RQEReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D25DF71EA7459A00918899 /* RQEReader */ = {
+			isa = PBXGroup;
+			children = (
+				18D25DF81EA7459A00918899 /* AppDelegate.swift */,
+				18D25DFA1EA7459A00918899 /* ViewController.swift */,
+				18D25DFC1EA7459A00918899 /* Main.storyboard */,
+				18D25DFF1EA7459A00918899 /* Assets.xcassets */,
+				18D25E011EA7459A00918899 /* LaunchScreen.storyboard */,
+				18D25E041EA7459A00918899 /* Info.plist */,
+			);
+			path = RQEReader;
+			sourceTree = "<group>";
+		};
+		2B538560191FC06110536940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B4736D3A59910DCE8208D /* Pods_RQEReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3D7D0C039AD3919E6F3BCED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11B0CE2A9E9D4054825492DC /* Pods-RQEReader.debug.xcconfig */,
+				3085697F4B234FD3353DFBFB /* Pods-RQEReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D25DF41EA7459A00918899 /* RQEReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D25E071EA7459A00918899 /* Build configuration list for PBXNativeTarget "RQEReader" */;
+			buildPhases = (
+				6B4AD98CF4D0E8B893801EA3 /* [CP] Check Pods Manifest.lock */,
+				18D25DF11EA7459A00918899 /* Sources */,
+				18D25DF21EA7459A00918899 /* Frameworks */,
+				18D25DF31EA7459A00918899 /* Resources */,
+				3724D934F8E81D4F356794C3 /* [CP] Embed Pods Frameworks */,
+				1B112385ADD46C3035D455B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQEReader;
+			productName = RQEReader;
+			productReference = 18D25DF51EA7459A00918899 /* RQEReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D25DED1EA7459A00918899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RQStudio;
+				TargetAttributes = {
+					18D25DF41EA7459A00918899 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = S6QJ9KM38G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D25DF01EA7459A00918899 /* Build configuration list for PBXProject "RQEReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D25DEC1EA7459A00918899;
+			productRefGroup = 18D25DF61EA7459A00918899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D25DF41EA7459A00918899 /* RQEReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D25DF31EA7459A00918899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D25E031EA7459A00918899 /* LaunchScreen.storyboard in Resources */,
+				18D25E001EA7459A00918899 /* Assets.xcassets in Resources */,
+				18D25DFE1EA7459A00918899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B112385ADD46C3035D455B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RQEReader/Pods-RQEReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3724D934F8E81D4F356794C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RQEReader/Pods-RQEReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4AD98CF4D0E8B893801EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D25DF11EA7459A00918899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D25DFB1EA7459A00918899 /* ViewController.swift in Sources */,
+				18D25DF91EA7459A00918899 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D25DFC1EA7459A00918899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D25DFD1EA7459A00918899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D25E011EA7459A00918899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D25E021EA7459A00918899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D25E051EA7459A00918899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D25E061EA7459A00918899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D25E081EA7459A00918899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B0CE2A9E9D4054825492DC /* Pods-RQEReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6QJ9KM38G;
+				INFOPLIST_FILE = RQEReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rqstudio.RQEReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18D25E091EA7459A00918899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3085697F4B234FD3353DFBFB /* Pods-RQEReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6QJ9KM38G;
+				INFOPLIST_FILE = RQEReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rqstudio.RQEReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D25DF01EA7459A00918899 /* Build configuration list for PBXProject "RQEReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D25E051EA7459A00918899 /* Debug */,
+				18D25E061EA7459A00918899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D25E071EA7459A00918899 /* Build configuration list for PBXNativeTarget "RQEReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D25E081EA7459A00918899 /* Debug */,
+				18D25E091EA7459A00918899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D25DED1EA7459A00918899 /* Project object */;
+}

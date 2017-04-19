@@ -1,0 +1,6 @@
+framework module Pods_RQEReader {
+  umbrella header "Pods-RQEReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
